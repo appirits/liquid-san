@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+class SomeModel
+  include Liquid::San
+end
+
+model = SomeModel.new
+model.template = 'Hello {{name}} world!'
+model.liquidize(:template, {'name' => 'Liquid'})  # => 'Hello Liquid world!'
+```
 
 ## Development
 
