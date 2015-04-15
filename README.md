@@ -7,7 +7,7 @@ Liquid::San (pronounce as リキッドさん) is a useful wrapper for Liquid Tem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'liquid-san', github: 'kkismd/liquid-san'
+gem 'liquid-san'
 ```
 
 And then execute:
