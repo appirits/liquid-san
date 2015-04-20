@@ -21,8 +21,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-class SomeModel
+class SomeModel < ActiveRecord::Base
   include Liquid::San
+  validates :template, length: { maximum: 255 }
 end
 
 model = SomeModel.new
